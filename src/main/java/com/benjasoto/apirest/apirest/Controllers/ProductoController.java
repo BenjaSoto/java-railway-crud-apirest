@@ -72,7 +72,7 @@ public class ProductoController {
 
         productoRepository.delete(producto);
 
-        return "El producto el id: " + id + " fue eliminado correctamente.";
+        return "El producto con Id: " + id + " fue eliminado correctamente.";
 
     }
 
